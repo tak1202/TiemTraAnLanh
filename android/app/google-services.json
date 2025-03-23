@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283428213458",
+    "project_id": "tiemtraanlanh",
+    "storage_bucket": "tiemtraanlanh.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283428213458:android:aff415460c87edfcdc130b",
+        "android_client_info": {
+          "package_name": "com.example.tiemtra_anlanh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp2_8rxrDYYgWOqKGk-_5-P5ilttl7m2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

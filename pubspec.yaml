@@ -1,0 +1,80 @@
+name: tiemtra_anlanh
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.12.1
+  flutter:
+    sdk: flutter
+  
+  flutter_native_splash: ^2.4.5
+  get: ^4.7.2
+  iconsax: ^0.0.8
+  smooth_page_indicator: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_native_splash:
+  android: true
+  ios: false
+  web: false
+  fullscreen: true
+  
+  # Màu nền cho chế độ sáng
+  color: "#CFE8D5"  # Thêm dấu # cho mã màu
+  
+  # Màu nền cho chế độ tối
+  color_dark: "#2e3b2f"  # Thêm dấu # cho mã màu
+  android_gravity: center
+
+  
+  # Ảnh logo hiển thị khi khởi động
+  image: "assets/logo/logo-white.png"
+  image_dark: "assets/logo/logo-dark.png"
+  android_12:
+    color: "#CFE8D5"
+    image: "assets/logo/logo-white.png"
+   
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/on_boarding_images/
+    - assets/logo/
+    - assets/image/login/
+
+  fonts:
+  - family: Poppins
+    fonts:
+      - asset: assets/fonts/Poppins-Light.ttf
+        weight: 300
+      - asset: assets/fonts/Poppins-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Poppins-Italic.ttf
+        style: italic
+      - asset: assets/fonts/Poppins-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Poppins-MediumItalic.ttf
+        weight: 500
+        style: italic
+      - asset: assets/fonts/Poppins-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/Poppins-Bold.ttf
+        weight: 800
+        
+
+
+
+
+    
+

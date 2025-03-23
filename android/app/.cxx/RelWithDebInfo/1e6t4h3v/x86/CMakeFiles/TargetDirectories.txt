@@ -1,0 +1,2 @@
+D:/DoAn_CK/tiemtra_anlanh/android/app/.cxx/RelWithDebInfo/1e6t4h3v/x86/CMakeFiles/edit_cache.dir
+D:/DoAn_CK/tiemtra_anlanh/android/app/.cxx/RelWithDebInfo/1e6t4h3v/x86/CMakeFiles/rebuild_cache.dir
