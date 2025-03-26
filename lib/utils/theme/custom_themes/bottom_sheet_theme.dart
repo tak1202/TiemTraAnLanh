@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tiemtra_anlanh/utils/constants/colors.dart';
 
 class TeaBottomSheetTheme {
   TeaBottomSheetTheme._();
@@ -13,8 +14,8 @@ class TeaBottomSheetTheme {
 
    static BottomSheetThemeData darkBottomSheetTheme=BottomSheetThemeData(
     showDragHandle: true,
-    backgroundColor: Colors.black,
-    modalBackgroundColor: Colors.black,
+    backgroundColor: TeaColors.dark,
+    modalBackgroundColor: TeaColors.dark,
     constraints: BoxConstraints(minWidth: double.infinity),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   );

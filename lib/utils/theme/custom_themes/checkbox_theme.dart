@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tiemtra_anlanh/utils/constants/colors.dart';
 
 class TeaCheckboxTheme{
   TeaCheckboxTheme._();
@@ -15,7 +16,7 @@ class TeaCheckboxTheme{
     }),
     fillColor: MaterialStateProperty.resolveWith((states){
       if (states.contains(MaterialState.selected)) {
-        return Colors.teal;
+        return TeaColors.primary;
       }else{
         return Colors.transparent;
       }
@@ -34,7 +35,7 @@ class TeaCheckboxTheme{
     }),
     fillColor: MaterialStateProperty.resolveWith((states){
       if (states.contains(MaterialState.selected)) {
-        return Colors.teal;
+        return TeaColors.primary;
       }else{
         return Colors.transparent;
       }

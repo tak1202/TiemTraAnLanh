@@ -3,8 +3,10 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:tiemtra_anlanh/features/authentication/controller/onboarding_controller.dart';
 import 'package:tiemtra_anlanh/features/authentication/screen/onboarding/widgets/onboarding_dot_navigation.dart';
+import 'package:tiemtra_anlanh/utils/constants/colors.dart';
 import 'package:tiemtra_anlanh/utils/constants/image_strings.dart';
 import 'package:tiemtra_anlanh/utils/constants/text_string.dart';
+import 'package:tiemtra_anlanh/utils/helpers/helpers_functions.dart';
 import 'widgets/onboarding_skip.dart';
 import 'widgets/onboarding_next_button.dart';
 import 'widgets/onboarding_page.dart';
@@ -17,7 +19,7 @@ class OnBoardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final controller=Get.put(OnBoardingController());
     return Scaffold(
-      //backgroundColor: Color(0xFFCFE8D5),
+      backgroundColor: TeaHelperFunctions.isDarkMode(context)?TeaColors.dark:TeaColors.light,
       body: Stack(
         children: [
           //PageView

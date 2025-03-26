@@ -15,7 +15,8 @@ class TeaSocialButton extends StatelessWidget {
       children: [
         Container(
           decoration: BoxDecoration(
-              border: Border.all(color: TeaColors.grey),
+              color: TeaColors.white,
+              border: Border.all(color: TeaColors.white),
               borderRadius: BorderRadius.circular(100)),
           child: IconButton(
             onPressed: () {},
@@ -28,7 +29,8 @@ class TeaSocialButton extends StatelessWidget {
         SizedBox(width: TeaSize.spaceBtwItems),
         Container(
           decoration: BoxDecoration(
-              border: Border.all(color: TeaColors.grey),
+              color: TeaColors.white,
+              border: Border.all(color: TeaColors.white),
               borderRadius: BorderRadius.circular(100)),
           child: IconButton(
             onPressed: () {},
@@ -42,4 +44,3 @@ class TeaSocialButton extends StatelessWidget {
     );
   }
 }
-

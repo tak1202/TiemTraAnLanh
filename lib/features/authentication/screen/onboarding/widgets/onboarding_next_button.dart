@@ -13,15 +13,14 @@ class OnBoardingNextButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = TeaHelperFunctions.isDarkMode(context);
+    //final dark = TeaHelperFunctions.isDarkMode(context);
     return Positioned(
         right: TeaSize.defaultSpace,
         bottom: TeaDeviceUtils.getBottomNavigationBarHeight(),
         child: ElevatedButton(
-            onPressed: () =>OnBoardingController.instance.nextPage(),
+            onPressed: () => OnBoardingController.instance.nextPage(),
             style: ElevatedButton.styleFrom(
-                shape: CircleBorder(),
-                backgroundColor: dark ? TeaColors.primary : Colors.greenAccent),
+                shape: CircleBorder(), backgroundColor: TeaColors.accent),
             child: Icon(Iconsax.arrow_right_3)));
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tiemtra_anlanh/utils/constants/colors.dart';
 import 'package:tiemtra_anlanh/utils/theme/custom_themes/appbar_theme.dart';
 import 'package:tiemtra_anlanh/utils/theme/custom_themes/bottom_sheet_theme.dart';
 import 'package:tiemtra_anlanh/utils/theme/custom_themes/checkbox_theme.dart';
@@ -12,13 +13,13 @@ class TAppTheme {
   TAppTheme._();
 
   static ThemeData lightTheme = ThemeData(
-    useMaterial3: true,
+    useMaterial3: false,
     fontFamily: 'Poppins',
     brightness: Brightness.light,
-    primaryColor: Colors.teal,
+    primaryColor: TeaColors.primary,
     textTheme: TeaTextTheme.lightTextTheme,
     chipTheme: TeaChipTheme.lightChipTheme,
-    scaffoldBackgroundColor: Colors.white,
+    scaffoldBackgroundColor: TeaColors.light,
     appBarTheme: TeaAppBarTheme.lightAppBarTheme,
     checkboxTheme: TeaCheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: TeaBottomSheetTheme.lightBottomSheetTheme,
@@ -27,13 +28,13 @@ class TAppTheme {
     inputDecorationTheme: TeaTextFieldTheme.lightInputDecorationTheme,
   );
   static ThemeData darkTheme = ThemeData(
-    useMaterial3: true,
+    useMaterial3: false,
     fontFamily: 'Poppins',
-    brightness: Brightness.light,
-    primaryColor: Colors.teal,
+    brightness: Brightness.dark,
+    primaryColor: TeaColors.primary,
     textTheme: TeaTextTheme.darkTextTheme,
     chipTheme: TeaChipTheme.darkChipTheme,
-    scaffoldBackgroundColor: Colors.black,
+    scaffoldBackgroundColor: TeaColors.dark,
     appBarTheme: TeaAppBarTheme.darkAppBarTheme,
     checkboxTheme: TeaCheckboxTheme.darkCheckboxTheme,
     bottomSheetTheme: TeaBottomSheetTheme.darkBottomSheetTheme,

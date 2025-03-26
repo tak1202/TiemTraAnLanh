@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tiemtra_anlanh/utils/constants/colors.dart';
 
 class TeaElevatedButtonTheme{
   TeaElevatedButtonTheme._();
@@ -7,10 +8,10 @@ class TeaElevatedButtonTheme{
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.white,
-      backgroundColor: Color(0xFFCFE8D5),
+      backgroundColor: TeaColors.accent,
       disabledBackgroundColor: Colors.grey,
       disabledForegroundColor: Colors.grey,
-      side: BorderSide(color: Color(0xFFCFE8D5)),
+      side: BorderSide(color: TeaColors.accent),
       padding: EdgeInsets.symmetric(vertical: 18),
       textStyle: TextStyle(fontSize: 16, color: Colors.white,fontWeight: FontWeight.w600),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -21,10 +22,10 @@ class TeaElevatedButtonTheme{
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.white,
-      backgroundColor: Colors.teal,
+      backgroundColor: TeaColors.accent,
       disabledBackgroundColor: Colors.grey,
       disabledForegroundColor: Colors.grey,
-      side: BorderSide(color: Colors.teal),
+      side: BorderSide(color: TeaColors.accent),
       padding: EdgeInsets.symmetric(vertical: 18),
       textStyle: TextStyle(fontSize: 16, color: Colors.white,fontWeight: FontWeight.w600),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
